@@ -1,0 +1,60 @@
+# Compile of RCA16_tb.sv was successful.
+# Compile of FA.sv was successful.
+# Compile of FA_tb.sv was successful.
+# Compile of RCA16_tb.sv was successful with warnings.
+# Compile of FA.sv was successful.
+# Compile of FA_tb.sv was successful.
+# Compile of RCA4.sv was successful.
+# Compile of RCA4_tb.sv was successful.
+# Compile of RCA16.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of RCA4.sv was successful.
+# Compile of RCA4_tb.sv was successful.
+# Compile of RCA16.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.RCA4_tb
+# vsim -gui I:\ECE 352\AHW1\RCA4.sv 
+# Start time: 16:06:04 on Sep 27,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# Loading sv_std.std
+# Loading work.RCA4_tb(fast)
+# SymInitialize: The parameter is incorrect.
+# 
+# 
+add wave -position insertpoint sim:/RCA4_tb/iDUT/*
+# (vish-4014) No objects found matching '/RCA4_tb/iDUT/*'.
+run -all
+# YAHOO!! test passed
+# ** Note: $stop    : I:/ECE 352/AHW1/RCA4_tb.sv(30)
+#    Time: 2560 ns  Iteration: 0  Instance: /RCA4_tb
+# Break at I:/ECE 352/AHW1/RCA4_tb.sv line 30
+run -all
+add wave -position insertpoint sim:/RCA4_tb/iDUT/*
+# (vish-4014) No objects found matching '/RCA4_tb/iDUT/*'.
+run -all
+add wave -position insertpoint sim:/RCA4_tb/iDUT/*
+# (vish-4014) No objects found matching '/RCA4_tb/iDUT/*'.
+vsim -gui -novopt work.RCA4_tb
+# vsim 
+# Start time: 16:08:42 on Sep 27,2021
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing I:/ECE 352/AHW1/work.RCA4_tb
+# Loading sv_std.std
+# Loading work.RCA4_tb
+# Refreshing I:/ECE 352/AHW1/work.RCA4
+# Loading work.RCA4
+# Refreshing I:/ECE 352/AHW1/work.FA
+# Loading work.FA
+# SymInitialize: The parameter is incorrect.
+# 
+# 
+add wave -position insertpoint sim:/RCA4_tb/iDUT/*
+run -all
+# YAHOO!! test passed
+# ** Note: $stop    : I:/ECE 352/AHW1/RCA4_tb.sv(30)
+#    Time: 2560 ns  Iteration: 0  Instance: /RCA4_tb
+# Break in Module RCA4_tb at I:/ECE 352/AHW1/RCA4_tb.sv line 30
+# End time: 16:31:09 on Sep 27,2021, Elapsed time: 0:22:27
+# Errors: 0, Warnings: 1
