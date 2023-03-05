@@ -1,0 +1,100 @@
+{Z:/ECE 352/AHW1/AHW1.sv} {1 {vlog -work work -sv -stats=none {Z:/ECE 352/AHW1/AHW1.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module AHW1
+
+Top level modules:
+	AHW1
+
+} {} {}} {I:/ECE 352/AHW1/RCA16_tb.sv} {2 {vlog -work work -vopt -sv -stats=none {I:/ECE 352/AHW1/RCA16_tb.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+** Warning: (vlog-6) -- Waiting for lock by "jinoy@WIN-8066, pid = 14556
+". Lockfile is "I:/ECE 352/AHW1/work/_lock".
+
+-- Compiling module RCA4
+
+Top level modules:
+	RCA4
+-- Compiling module RCA16_tb
+
+Top level modules:
+	RCA16_tb
+
+} {} {}} {Z:/ECE 352/AHW1/RCA16_tb.sv} {1 {vlog -work work -sv -stats=none {Z:/ECE 352/AHW1/RCA16_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module RCA16_tb
+
+Top level modules:
+	RCA16_tb
+
+} {} {}} {Z:/ECE 352/AHW1/FA_tb.sv} {1 {vlog -work work -sv -stats=none {Z:/ECE 352/AHW1/FA_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module FA_tb
+
+Top level modules:
+	FA_tb
+
+} {} {}} {Z:/ECE 352/AHW1/RCA16.sv} {1 {vlog -work work -sv -stats=none {Z:/ECE 352/AHW1/RCA16.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module RCA16
+
+Top level modules:
+	RCA16
+
+} {} {}} {I:/ECE 352/AHW1/FA.sv} {1 {vlog -work work -vopt -sv -stats=none {I:/ECE 352/AHW1/FA.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} {I:/ECE 352/AHW1/RCA4_tb.sv} {1 {vlog -work work -vopt -sv -stats=none {I:/ECE 352/AHW1/RCA4_tb.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module RCA4_tb
+
+Top level modules:
+	RCA4_tb
+
+} {} {}} {Z:/ECE 352/AHW1/FA.sv} {1 {vlog -work work -sv -stats=none {Z:/ECE 352/AHW1/FA.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} {I:/ECE 352/AHW1/RCA4.sv} {1 {vlog -work work -vopt -sv -stats=none {I:/ECE 352/AHW1/RCA16.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module RCA16
+
+Top level modules:
+	RCA16
+
+} {} {}} {Z:/ECE 352/AHW1/RCA4.sv} {1 {vlog -work work -sv -stats=none {Z:/ECE 352/AHW1/RCA4.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module RCA4
+
+Top level modules:
+	RCA4
+
+} {} {}} {I:/ECE 352/AHW1/FA_tb.sv} {1 {vlog -work work -vopt -sv -stats=none {I:/ECE 352/AHW1/FA_tb.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module FA_tb
+
+Top level modules:
+	FA_tb
+
+} {} {}} {I:/ECE 352/AHW1/RCA16.sv} {1 {vlog -work work -vopt -sv -stats=none {I:/ECE 352/AHW1/RCA16.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module RCA16
+
+Top level modules:
+	RCA16
+
+} {} {}} {Z:/ECE 352/AHW1/RCA4_tb.sv} {1 {vlog -work work -sv -stats=none {Z:/ECE 352/AHW1/RCA4_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module RCA4_tb
+
+Top level modules:
+	RCA4_tb
+
+} {} {}}
