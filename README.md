@@ -3,6 +3,7 @@ Code from ECE 352(verilog fundamentals and fpga prototyping) and ECE 551(digital
 
 EQUALIZER Project description(ECE 551 digital system design)
   ![image](https://github.com/Danjj21/Verilog/assets/104698571/ad4f160f-6f01-424f-a084-750ecb3e25ee)
+  
   The audio processing will be done in the digital domain. The incoming audio stream will come from a 
   Bluetooth module on the I2S protocol. The stream broken into 5 bands via DSP FIR filters. Each 
   band will have a different gain term (as read via an A2D from a slide potentiometer) applied, and the 
