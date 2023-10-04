@@ -1,0 +1,309 @@
+I:/ECE551/ProjectFiles/ROM_B3.v {1 {vlog -work work -vopt -stats=none I:/ECE551/ProjectFiles/ROM_B3.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module ROM_B3
+
+Top level modules:
+	ROM_B3
+
+} {} {}} I:/ECE551/ProjectFiles/A2D_with_Pots.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/A2D_with_Pots.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module A2D_with_Pots
+
+Top level modules:
+	A2D_with_Pots
+
+} {} {}} I:/ECE551/ProjectFiles/high_freq_queue.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/high_freq_queue.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module high_freq_queue
+
+Top level modules:
+	high_freq_queue
+
+} {} {}} I:/ECE551/ProjectFiles/FIR_B2_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/FIR_B2_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module FIR_B2_tb
+
+Top level modules:
+	FIR_B2_tb
+
+} {} {}} I:/ECE551/ProjectFiles/rst_synch.v {1 {vlog -work work -vopt -stats=none I:/ECE551/ProjectFiles/rst_synch.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module rst_synch
+
+Top level modules:
+	rst_synch
+
+} {} {}} I:/ECE551/ProjectFiles/ROM_HP.v {1 {vlog -work work -vopt -stats=none I:/ECE551/ProjectFiles/ROM_HP.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module ROM_HP
+
+Top level modules:
+	ROM_HP
+
+} {} {}} I:/ECE551/ProjectFiles/PB_release.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/PB_release.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module PB_release
+
+Top level modules:
+	PB_release
+
+} {} {}} I:/ECE551/ProjectFiles/Equalizer.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/Equalizer.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Equalizer
+
+Top level modules:
+	Equalizer
+
+} {} {}} I:/ECE551/ProjectFiles/low_freq_queue.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/low_freq_queue.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module low_freq_queue
+
+Top level modules:
+	low_freq_queue
+
+} {} {}} I:/ECE551/ProjectFiles/I2S_Serf-1.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/I2S_Serf-1.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module I2S_Serf
+
+Top level modules:
+	I2S_Serf
+
+} {} {}} I:/ECE551/ProjectFiles/UART.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/UART.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module UART
+
+Top level modules:
+	UART
+
+} {} {}} I:/ECE551/ProjectFiles/tone_ROM_rght.v {1 {vlog -work work -vopt -stats=none I:/ECE551/ProjectFiles/tone_ROM_rght.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module tone_ROM_rght
+
+Top level modules:
+	tone_ROM_rght
+
+} {} {}} I:/ECE551/ProjectFiles/resp_ROM.v {1 {vlog -work work -vopt -stats=none I:/ECE551/ProjectFiles/resp_ROM.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module resp_ROM
+
+Top level modules:
+	resp_ROM
+
+} {} {}} I:/ECE551/ProjectFiles/FIR_B2.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/FIR_B2.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module FIR_B2
+
+Top level modules:
+	FIR_B2
+
+} {} {}} I:/ECE551/ProjectFiles/tone_ROM_lft.v {1 {vlog -work work -vopt -stats=none I:/ECE551/ProjectFiles/tone_ROM_lft.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module tone_ROM_lft
+
+Top level modules:
+	tone_ROM_lft
+
+} {} {}} I:/ECE551/ProjectFiles/ROM_LP.v {1 {vlog -work work -vopt -stats=none I:/ECE551/ProjectFiles/ROM_LP.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module ROM_LP
+
+Top level modules:
+	ROM_LP
+
+} {} {}} I:/ECE551/ProjectFiles/ROM.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/ROM.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module ROM
+
+Top level modules:
+	ROM
+
+} {} {}} I:/ECE551/ProjectFiles/high_freq_queue_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/high_freq_queue_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module high_freq_queue_tb
+
+Top level modules:
+	high_freq_queue_tb
+
+} {} {}} I:/ECE551/ProjectFiles/RN52.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/RN52.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module RN52
+
+Top level modules:
+	RN52
+
+} {} {}} I:/ECE551/ProjectFiles/cmdROM.v {1 {vlog -work work -vopt -stats=none I:/ECE551/ProjectFiles/cmdROM.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module cmdROM
+
+Top level modules:
+	cmdROM
+
+} {} {}} I:/ECE551/ProjectFiles/snd_cmd.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/snd_cmd.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module snd_cmd
+
+Top level modules:
+	snd_cmd
+
+} {} {}} I:/ECE551/ProjectFiles/low_freq_queue_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/low_freq_queue_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module low_freq_queue_tb
+
+Top level modules:
+	low_freq_queue_tb
+
+} {} {}} I:/ECE551/ProjectFiles/FIR_HP.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/FIR_HP.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module FIR_HP
+
+Top level modules:
+	FIR_HP
+
+} {} {}} I:/ECE551/ProjectFiles/band_scale_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/band_scale_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module band_scale_tb
+
+Top level modules:
+	band_scale_tb
+
+} {} {}} I:/ECE551/ProjectFiles/SPI_ADC128S.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/SPI_ADC128S.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module SPI_ADC128S
+
+Top level modules:
+	SPI_ADC128S
+
+} {} {}} I:/ECE551/ProjectFiles/slide_intf.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/slide_intf.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module slide_intf
+
+Top level modules:
+	slide_intf
+
+} {} {}} I:/ECE551/ProjectFiles/PDM.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/PDM.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module PDM
+
+Top level modules:
+	PDM
+
+} {} {}} {I:/ECE551/ProjectFiles/A2D_intf (1).sv} {1 {vlog -work work -vopt -sv -stats=none {I:/ECE551/ProjectFiles/A2D_intf (1).sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module A2D_intf
+
+Top level modules:
+	A2D_intf
+
+} {} {}} {I:/ECE551/ProjectFiles/Equalizer_tb (2).sv} {1 {vlog -work work -vopt -sv -stats=none {I:/ECE551/ProjectFiles/Equalizer_tb (2).sv}
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module Equalizer_tb1
+
+Top level modules:
+	Equalizer_tb1
+
+} {} {}} I:/ECE551/ProjectFiles/spkr_drv.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/spkr_drv.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module spkr_drv
+
+Top level modules:
+	spkr_drv
+
+} {} {}} I:/ECE551/ProjectFiles/SPI_mnrch.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/SPI_mnrch.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module SPI_mnrch
+
+Top level modules:
+	SPI_mnrch
+
+} {} {}} I:/ECE551/ProjectFiles/FIR_B1.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/FIR_B1.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module FIR_B1
+
+Top level modules:
+	FIR_B1
+
+} {} {}} I:/ECE551/ProjectFiles/BT_intf_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/BT_intf_tb.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module BT_intf_tb
+
+Top level modules:
+	BT_intf_tb
+
+} {} {}} I:/ECE551/ProjectFiles/EQ_engine.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/EQ_engine.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module EQ_engine
+
+Top level modules:
+	EQ_engine
+
+} {} {}} I:/ECE551/ProjectFiles/FIR_LP.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/FIR_LP.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module FIR_LP
+
+Top level modules:
+	FIR_LP
+
+} {} {}} I:/ECE551/ProjectFiles/band_scale.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/band_scale.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module band_scale
+
+Top level modules:
+	band_scale
+
+} {} {}} I:/ECE551/ProjectFiles/ROM_B1.v {1 {vlog -work work -vopt -stats=none I:/ECE551/ProjectFiles/ROM_B1.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module ROM_B1
+
+Top level modules:
+	ROM_B1
+
+} {} {}} I:/ECE551/ProjectFiles/I2S_Mnrch.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/I2S_Mnrch.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module I2S_Mnrch
+
+Top level modules:
+	I2S_Mnrch
+
+} {} {}} I:/ECE551/ProjectFiles/FIR_B3.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/FIR_B3.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module FIR_B3
+
+Top level modules:
+	FIR_B3
+
+} {} {}} I:/ECE551/ProjectFiles/ROM_B2.v {1 {vlog -work work -vopt -stats=none I:/ECE551/ProjectFiles/ROM_B2.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module ROM_B2
+
+Top level modules:
+	ROM_B2
+
+} {} {}} I:/ECE551/ProjectFiles/ADC128S.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/ADC128S.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module ADC128S
+
+Top level modules:
+	ADC128S
+
+} {} {}} I:/ECE551/ProjectFiles/BT_intf.sv {1 {vlog -work work -vopt -sv -stats=none I:/ECE551/ProjectFiles/BT_intf.sv
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module bt_intf
+
+Top level modules:
+	bt_intf
+
+} {} {}} I:/ECE551/ProjectFiles/dualPort1024x16.v {1 {vlog -work work -vopt -stats=none I:/ECE551/ProjectFiles/dualPort1024x16.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module dualPort1024x16
+
+Top level modules:
+	dualPort1024x16
+
+} {} {}} I:/ECE551/ProjectFiles/dualPort1536x16.v {1 {vlog -work work -vopt -stats=none I:/ECE551/ProjectFiles/dualPort1536x16.v
+Questa Intel Starter FPGA Edition-64 vlog 2021.2 Compiler 2021.04 Apr 14 2021
+-- Compiling module dualPort1536x16
+
+Top level modules:
+	dualPort1536x16
+
+} {} {}}

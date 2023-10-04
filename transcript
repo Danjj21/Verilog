@@ -1,0 +1,108 @@
+# Compile of FIR_B2_Dan.sv failed with 3 errors.
+# Compile of A2D_intf.sv was successful.
+# Compile of A2D_with_Pots.sv was successful.
+# Compile of ADC128S.sv was successful.
+# Compile of band_scale.sv was successful.
+# Compile of band_scale_tb.sv was successful.
+# Compile of BT_intf.sv was successful.
+# Compile of BT_intf_tb.sv was successful.
+# Compile of cmdROM.v was successful.
+# Compile of dualPort1024x16.v was successful.
+# Compile of dualPort1536x16.v was successful.
+# Compile of EQ_engine.sv was successful.
+# Compile of Equalizer.sv was successful.
+# Compile of Equalizer_tb.sv was successful.
+# Compile of FIR_B1.sv was successful.
+# Compile of FIR_B2.sv was successful.
+# Compile of FIR_B2_Dan.sv failed with 3 errors.
+# Compile of FIR_B2_tb.sv was successful.
+# Compile of FIR_B3.sv was successful.
+# Compile of FIR_HP.sv was successful.
+# Compile of FIR_LP.sv was successful.
+# Compile of high_freq_queue.sv was successful.
+# Compile of high_freq_queue_tb.sv was successful.
+# Compile of I2S_Mnrch.sv was successful.
+# Compile of I2S_Serf.sv was successful.
+# Compile of low_freq_queue.sv was successful.
+# Compile of low_freq_queue_tb.sv was successful.
+# Compile of PB_release.sv was successful.
+# Compile of PDM.sv was successful.
+# Compile of resp_ROM.v was successful.
+# Compile of RN52.sv was successful.
+# Compile of ROM.sv was successful.
+# Compile of ROM_B1.v was successful.
+# Compile of ROM_B2.v was successful.
+# Compile of ROM_B3.v was successful.
+# Compile of ROM_HP.v was successful.
+# Compile of ROM_LP.v was successful.
+# Compile of rst_synch.v was successful.
+# Compile of slide_intf.sv was successful.
+# Compile of snd_cmd.sv was successful.
+# Compile of SPI_ADC128S.sv was successful.
+# Compile of SPI_mnrch.sv was successful.
+# 41 compiles, 1 failed with 3 errors.
+vsim work.Equalizer_tb1
+# vsim work.Equalizer_tb1 
+# Start time: 10:42:58 on Apr 28,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: I:/ECE551/ProjectFiles/Project_file_temp/snd_cmd.sv(169): Module 'UART' is not defined.
+#  For instance 'UART_def' at path 'Equalizer_tb1.iDUT.iBT.snd_inst'
+# ** Error: I:/ECE551/ProjectFiles/Project_file_temp/Equalizer.sv(83): Module 'spkr_drv' is not defined.
+#  For instance 'iDRV' at path 'Equalizer_tb1.iDUT'
+# ** Error: I:/ECE551/ProjectFiles/Project_file_temp/I2S_Mnrch.sv(37): Module 'tone_ROM_lft' is not defined.
+#  For instance 'iLTR' at path 'Equalizer_tb1.iRN52.iI2S_Mnrch'
+# ** Error: I:/ECE551/ProjectFiles/Project_file_temp/I2S_Mnrch.sv(38): Module 'tone_ROM_rght' is not defined.
+#  For instance 'iRTR' at path 'Equalizer_tb1.iRN52.iI2S_Mnrch'
+# ** Error: I:/ECE551/ProjectFiles/Project_file_temp/RN52.sv(45): Module 'UART' is not defined.
+#  For instance 'iUART' at path 'Equalizer_tb1.iRN52'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=5, Warnings=0.
+# Error loading design
+# End time: 10:43:02 on Apr 28,2023, Elapsed time: 0:00:04
+# Errors: 5, Warnings: 7
+# Compile of tone_ROM_rght.v was successful.
+# Compile of tone_ROM_lft.v was successful.
+# Compile of UART.sv was successful.
+# Compile of spkr_drv.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.Equalizer_tb1
+# vsim work.Equalizer_tb1 
+# Start time: 10:45:11 on Apr 28,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.Equalizer_tb1(fast)
+# Loading work.rst_synch(fast)
+# Loading work.cmdROM(fast)
+# Loading work.dualPort1536x16(fast)
+# Loading work.dualPort1024x16(fast)
+# Loading work.ROM_B2(fast)
+# Loading work.ROM_B3(fast)
+# Loading work.ROM_HP(fast)
+# Loading work.ROM_B1(fast)
+# Loading work.ROM_LP(fast)
+# Loading work.resp_ROM(fast)
+# Loading work.tone_ROM_lft(fast)
+# Loading work.tone_ROM_rght(fast)
+add wave -position insertpoint sim:/Equalizer_tb1/iPOTs/*
+# ** UI-Msg: (vish-4014) No objects found matching '/Equalizer_tb1/iPOTs/*'.
+# Break key hit
+vsim work.Equalizer_tb1 -novopt
+# End time: 10:45:57 on Apr 28,2023, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 4
+# vsim work.Equalizer_tb1 -novopt 
+# Start time: 10:45:57 on Apr 28,2023
+# ** Error (suppressible): (vsim-12110) All optimizations are disabled because the -novopt option is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features, please see the User's Manual section on Preserving Object Visibility with vopt. -novopt option is now deprecated and will be removed in future releases.
+# Error loading design
+# End time: 10:46:00 on Apr 28,2023, Elapsed time: 0:00:03
+# Errors: 1, Warnings: 1
+vsim work.FIR_B2_tb
+# vsim work.FIR_B2_tb 
+# Start time: 10:46:35 on Apr 28,2023
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.FIR_B2_tb(fast)
+# Loading work.resp_ROM(fast)
+# Loading work.tone_ROM_lft(fast)
+# Loading work.tone_ROM_rght(fast)
+# Loading work.dualPort1536x16(fast)
+# Loading work.ROM_B2(fast)
